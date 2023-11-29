@@ -4,9 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <title>My Portfolio Website</title>
+    <link rel="website icon" href="https://storage.googleapis.com/andistaticwebsite/Akiyo.jpg">
+    <style>
+        body{
+            cursor: pointer;
+            /* scroll-behavior: smooth; */
+        }
+
+        img{
+            border-radius: 25px;
+            display: flex;
+        }
+        div{
+            /* display: flex; */
+            /* justify-content: center; */
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,9 +36,9 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#tools" class="nav__link">Tools</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Tentang saya</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skill saya</a></li>
+                    <li class="nav__item"><a href="#tools" class="nav__link">Tools yang digunakan</a></li>
                 </ul>
             </div>
 
@@ -34,8 +51,7 @@
     <main class="l-main">
         <section class="home bd-grid" id="home">
             <div class="home__data">
-                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Fathur</span><br> Computer Science
-                </h1>
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Andi</span><br> Cloud Engineer
             </div>
 
             <div class="home__social">
@@ -44,7 +60,7 @@
             </div>
 
             <div class="home__img">
-                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                <!-- <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
                     <mask id="mask0" mask-type="alpha">
                         <path
@@ -55,27 +71,28 @@
                             d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
                         <image class="home__blob-img" x="50" y="60" href="https://storage.googleapis.com/portfolio-zaka-bucket/profile.png" />
                     </g>
-                </svg>
+                </svg> -->
+                <img src="https://storage.googleapis.com/andistaticwebsite/Akiyo.jpg" alt="ayanokouji kiyotaka image">
             </div>
         </section>
 
         <section class="about section " id="about">
-            <h2 class="section-title">About</h2>
+            <h2 class="section-title">Tentang saya</h2>
 
             <div class="about__container bd-grid">
                 <div class="about__img">
-                    <img src="https://storage.googleapis.com/portfolio-zaka-bucket/about.jpg" alt="">
+                    <img src="https://storage.googleapis.com/andistaticwebsite/Akiyo.jpg" alt="ayanokouji kiyotaka image">>
                 </div>
 
                 <div>
-                    <h2 class="about__subtitle">I'am Fathur</h2>
-                    <p class="about__text">Currently, I am a final year student at Sekolah Tinggi Teknologi Indonesia Tanjungpinang. I am majoring in Computer Science and usually work on Web and Android projects.</p>
+                    <h2 class="about__subtitle">I'am Andi</h2>
+                    <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorem eligendi similique officia doloremque quam nulla rerum, iure odit magni tempora laboriosam qui!</p>
                 </div>
             </div>
         </section>
 
         <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title">Skill-skill yang dikuasai</h2>
 
             <div class="skills__container bd-grid">
                 <div>
@@ -109,7 +126,7 @@
                     <div class="skills__data">
                         <div class="skills__names">
                             <i class='bx bxl-figma skills__icon'></i>
-                            <span class="skills__name">Figma</span>
+                            <span class="skills__name">PHP</span>
                         </div>
                         <div class="skills__bar skills__figma">
 
@@ -135,26 +152,61 @@
         </section>
 
         <section class="work section" id="tools">
-            <h2 class="section-title">My Daily Tools</h2>
+            <h2 class="section-title">Tools sehari-hari</h2>
 
             <div class="work__container bd-grid">
                 <a href="" class="work__img">
-                    <img src="https://storage.googleapis.com/portfolio-zaka-bucket/laravel.png" alt="">
+                    <center>
+                        
+                        <img src="https://storage.googleapis.com/andistaticwebsite/express%20js.png" alt="express js module">
+                    </center>
                 </a>
                 <a href="" class="work__img">
-                    <img src="https://storage.googleapis.com/portfolio-zaka-bucket/react-native.png" alt="">
+                    <center>
+                        
+                        <img src="https://storage.googleapis.com/andistaticwebsite/javascript.png" alt="javascript programming language">
+                    </center>
                 </a>
                 <a href="" class="work__img">
-                    <img src="https://storage.googleapis.com/portfolio-zaka-bucket/express.png" alt="">
+                    <center>
+                        
+                        <img src="https://storage.googleapis.com/andistaticwebsite/php.jpeg" alt="php programming language">
+                    </center>
                 </a>
                 <a href="" class="work__img">
-                    <img src="https://storage.googleapis.com/portfolio-zaka-bucket/nginx.png" alt="">
+                    <center>
+                
+                        <img src="https://storage.googleapis.com/andistaticwebsite/laravelframework.png" alt="laravel web development framework">
+                    </center>
                 </a>
                 <a href="" class="work__img">
-                    <img src="https://storage.googleapis.com/portfolio-zaka-bucket/tcss.png" alt="">
+                    <center>
+
+                        <img src="https://storage.googleapis.com/andistaticwebsite/ci.png" alt="codeigniter web development framework">
+                    </center>
                 </a>
                 <a href="" class="work__img">
-                    <img src="https://storage.googleapis.com/portfolio-zaka-bucket/gcp.png" alt="">
+                    <center>
+
+                        <img src="https://storage.googleapis.com/andistaticwebsite/nodejs.png" alt="node js module">
+                    </center>
+                </a>
+                <a href="" class="work__img">
+                    <center>
+
+                        <img src="https://storage.googleapis.com/andistaticwebsite/nextjs.png" alt="next js module">
+                    </center>
+                </a>
+                <a href="" class="work__img">
+                    <center>
+
+                        <img src="https://storage.googleapis.com/andistaticwebsite/reactjs.png" alt="react js frontend web framework">
+                    </center>
+                </a>
+                <a href="" class="work__img">
+                    <center>
+                        <img src="https://storage.googleapis.com/andistaticwebsite/vuejs.png" alt="vue js frontend web framework">
+                    </center>
                 </a>
             </div>
         </section>
